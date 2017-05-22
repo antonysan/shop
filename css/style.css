@@ -69,7 +69,7 @@ header form {
 }
 .button-block {
 	width: 86px;
-	height: 51px;
+	height: 49px;
 	background-color: #dcae93;
 	border: 1px solid #dcae93;
 	font-family: SourceSerifPro;
@@ -243,11 +243,6 @@ content {
 	letter-spacing: 1.6px;
 }	
 
-
-@media screen and (max-width: 1169px) {
-    .product-wrapper{margin-top: 20px;}
-   }
-
 .feedback {
 	height: 400px;
 	display: flex;
@@ -277,12 +272,16 @@ content {
 .feed-reviews {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
-	margin-bottom: 75px;
+	margin-bottom: 55px;
+	height: 150px;
+
 }
 .reviews-box {
-	width: 300px;
+	width: 280px;
+	overflow: hidden;
+
 }
 .reviews-name {
 	font-family: Tahoma;
@@ -377,4 +376,16 @@ footer li a:hover {
 	color:  #adadad;
 	font-size: 18px;
 	font-weight: 400;
+}
+
+
+
+/*		@media		*/
+@media screen and (max-width: 1169px) {
+    .product-wrapper:last-child{
+    	margin-top: 20px;
+	}
+	.reviews-box:last-child {
+		display: none;
+	}
 }
