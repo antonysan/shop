@@ -1,0 +1,380 @@
+/*Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 1170px;
+	margin: 45px auto;
+}
+
+.logo {
+	width: 188px;
+	height: 53px;
+	background-color: #e5e5e5;
+	background-image: url(../image/logo.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.logo a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header-nav {
+	width: 350px;
+}
+header ul {
+	display: flex;
+ 	justify-content: space-around;
+}
+li {
+	list-style: none;
+}
+header li a{
+	font-family: 'Source Sans Pro';
+	color:  #454444;
+	font-size: 16.38px;
+	font-weight: 400;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+header li a:hover {
+	color: #dcae93;
+}
+header form {
+	border-spacing: 0;
+}
+.text-block {
+	width: 270px;
+	height: 49px;
+	padding-left: 20px;
+	font-family: SourceSerifPro;
+	color:  #dcdada;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: left;
+	background-color: #f8f8f8;
+	border: 1px solid #f8f8f8;
+}
+.button-block {
+	width: 86px;
+	height: 51px;
+	background-color: #dcae93;
+	border: 1px solid #dcae93;
+	font-family: SourceSerifPro;
+	color:  #f2f2f2;
+	font-size: 16.38px;
+	font-weight: 700;
+}
+
+/*	Aside 	*/
+aside {
+	display: flex;
+	max-width: 1170px;
+	height: 600px;
+	margin: 45px auto;
+}	
+
+.column-left {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 190px;
+	background-color: #081726;
+	text-transform: uppercase;
+
+}
+.column-left-uptxt {
+	margin-left: 20px;
+	font-family: 'Source Sans Pro';
+	color:  #f2ebeb;
+	font-size: 55.38px;
+	font-weight: 700;
+	letter-spacing: 5.538px;
+}
+.column-left-downtxt {
+	width: 1px;
+	word-wrap: break-word;
+	font-family: 'Source Sans Pro';
+	color:  #f2ebeb;
+	font-size: 27.38px;
+	font-weight: 400;
+	letter-spacing: -2.738px;
+}
+
+
+.column-right {
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	background-color: #e5e5e5;
+	background-image: url(../image/man.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.column-right-wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 400px;
+	height: 150px;
+	margin-bottom: 130px;
+	margin-left: -140px;
+}
+.column-right-wrapper p {
+	font-family: Akrobat;
+	color:  #f2ebeb;
+	font-size: 23.99px;
+	font-weight: 400;
+	line-height: 0.01px;
+}
+
+.column-right-button {
+	margin-top: 40px;
+	box-sizing: border-box;
+	background-color: #ff6633; 
+
+}
+
+.column-right-button a{
+	display: block;
+    padding: 15px 53px 15px 53px;
+	font-family: 'Source Sans Pro';
+	color:  #f2ebeb;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+/* Headline */
+
+content {
+	display: flex;
+	flex-direction: column;
+	max-width: 1170px;	
+	margin: 0 auto;
+}
+
+.headline {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.headline-line{
+	width: 70%;
+	margin: 0 auto;
+	border-bottom: 1px solid #cfac93;
+	text-align: center;
+	padding-bottom: 10px;
+	font-family: 'Source Sans Pro';
+	color:  #454444;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 2.4px;
+}
+.headline-text {
+	width: 70%;
+	font-family: SourceSerifPro;
+	color:  #adadad;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin: 25px auto 0;
+
+}
+.product {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 50px auto;
+}
+.product-wrapper{
+	width: 585px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+
+.product-box {
+	width: 200px;
+	height: 270px;
+}
+
+.price, .price-name {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.price-name {
+	font-family: 'Source Sans Pro',Verdana, Arial;
+	color: #302f2f;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 1.6px;
+	margin-bottom: 10px;
+	}
+.price {
+	font-family: 'Source Sans Pro';
+	color:  #adadad;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 1.6px;
+}	
+
+
+@media screen and (max-width: 1169px) {
+    .product-wrapper{margin-top: 20px;}
+   }
+
+.feedback {
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #fafafa;
+}
+.feed-text {
+	text-align: center;
+	margin-top: 25px;
+
+}
+.feed-text h2{
+	font-family: 'Source Sans Pro';
+	color:  #454444;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 2.4px;
+}
+.feed-text p{
+	margin-top: 50px;
+	font-family: SourceSerifPro;
+	color:  #adadad;
+	font-size: 18px;
+	font-weight: 400;
+}
+.feed-reviews {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-bottom: 75px;
+}
+.reviews-box {
+	width: 300px;
+}
+.reviews-name {
+	font-family: Tahoma;
+	color: #454444;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: 1.7px;
+	text-align: left;
+}
+.reviews-date {
+	margin-top: 20px;
+	font-family: SourceSerifPro;
+	color:  #adadad;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+}
+.reviews-text{
+	margin-top: 10px;
+	font-family: SourceSerifPro;
+	color:  #adadad;
+	font-weight: 400;
+	text-align: left;
+	overflow: hidden;
+}
+.subscribe {
+	height: 230px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #272521;
+}
+.subscribe p {
+	font-family: 'Source Sans Pro';
+	color:  #ebebea;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+.subscribe-box {
+	width: 690px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+/*		Footer		*/
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 1170px;
+	height: 336px;
+	margin: auto;
+	border-bottom: 4px solid #272521;
+}
+.nav-contaner {
+	width: 100%;
+	margin-top: 70px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+footer ul{
+
+}
+footer h3 {
+	margin-bottom: 20px;
+	font-family: SourceSerifPro;
+	color:  #000000;
+	font-size: 16px;
+	font-weight: 600;
+}
+footer li a {
+	font-family: SourceSerifPro;
+	color:  #707070;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+
+}
+footer li a:hover {
+	color: #dcae93;
+}
+
+.copyright-text{
+	margin-bottom: 70px;
+	text-align: center;
+	font-family: 'Source Sans Pro', Geneva, Verdana, Arial;
+	color:  #adadad;
+	font-size: 18px;
+	font-weight: 400;
+}
