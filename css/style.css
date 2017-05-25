@@ -389,3 +389,18 @@ footer li a:hover {
 		display: none;
 	}
 }
+
+
+/* modal */
+.modalflex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.description {
+	width: 250px;
+}
+.description div {
+	margin-top: 15px;
+}

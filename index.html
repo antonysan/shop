@@ -3,10 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>flexbox shop</title>
+			<!-- Style -->	
 	<link rel="stylesheet" href="css/style.css">
+			<!-- modal windows -->	
+	<link rel="stylesheet" href="css/reveal.css">
+			<!-- meadi query -->	
 	<link rel="stylesheet"  media="screen and (max-width: 1169px)" href="css/style.css"> 
-
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+			<!-- JavaScript -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+	<script type="text/javascript" src="js/jquery.reveal.js"></script>
+			<!-- @fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -45,15 +52,19 @@ miss your chance to find your style with us!</div>
 		</div>
 		<div class = "product">
 			<div class="product-wrapper">
-				<div class="product-box box1">
-					<img src="image/sneakers.jpg" width="200px" height="200px" alt="image">
+				<div class="product-box box1"> <!-- box 1_1-->
+					<a href="#" class="big-link" data-reveal-id="myModal1-1"><!--ссылка на модальное окно-->
+						<img src="image/sneakers.jpg" width="200px" height="200px" alt="image">
+					</a>
 					<div class="pruduct-price">
 						<p class = "price-name">Sneakers</p>
 						<p class = "price"><b>266</b>.99$</p>
 					</div>
 				</div>
-				<div class="product-box box2">
-					<img src="image/shirt.jpeg" width="200px" height="200px" alt="image">
+				<div class="product-box box2"> <!-- box 1_2-->
+					<a href="#" class="big-link" data-reveal-id="myModal1-2"><!--ссылка на модальное окно-->
+						<img src="image/shirt.jpeg" width="200px" height="200px" alt="image">
+					</a>					
 					<div class="pruduct-price">
 						<p class = "price-name">Shirts</p>
 						<p class = "price"><b>405</b>.99$</p>
@@ -61,15 +72,19 @@ miss your chance to find your style with us!</div>
 				</div>
 			</div>
 			<div class="product-wrapper">
-				<div class="product-box box3">
-					<img src="image/heats.jpg" width="200px" height="200px" alt="image">
+				<div class="product-box box3"> <!-- box 1_3-->
+					<a href="#" class="big-link" data-reveal-id="myModal1-3"><!--ссылка на модальное окно-->
+						<img src="image/heats.jpg" width="200px" height="200px" alt="image">
+					</a>
 					<div class="pruduct-price">
 						<p class = "price-name">Heats</p>
 						<p class = "price"><b>184</b>.99$</p>
 					</div>
 				</div>
-				<div class="product-box box4">
-					<img src="image/necties.jpg" width="200px" height="200px" alt="image">
+				<div class="product-box box4"> <!-- box 1_4-->
+					<a href="#" class="big-link" data-reveal-id="myModal1-4"><!--ссылка на модальное окно-->
+						<img src="image/necties.jpg" width="200px" height="200px" alt="image">
+					</a>
 					<div class="pruduct-price">
 						<p class = "price-name">Neckties</p>
 						<p class = "price"><b>249</b>.99$</p>
@@ -84,15 +99,19 @@ miss your chance to find your style with us!</div>
 		</div>
 		<div class = "product">
 			<div class="product-wrapper">
-				<div class="product-box box1">
-					<img src="image/p_1.jpg" width="200px" height="200px" alt="image">
+				<div class="product-box box1"> <!-- box 2_1-->
+					<a href="#" class="big-link" data-reveal-id="myModal2-1"><!--ссылка на модальное окно-->
+						<img src="image/p_1.jpg" width="200px" height="200px" alt="image">
+					</a>
 					<div class="pruduct-price">
 						<p class = "price-name">Purple Sneaker <br>"Light Track"</p>
 						<p class = "price"><b>266</b>.99$</p>
 					</div>
 				</div>
-				<div class="product-box box2">
-					<img src="image/backpack.jpg" width="200px" height="200px" alt="image">
+				<div class="product-box box2"> <!-- box 2_2-->
+					<a href="#" class="big-link" data-reveal-id="myModal2-2"><!--ссылка на модальное окно-->
+						<img src="image/backpack.jpg" width="200px" height="200px" alt="image">
+					</a>
 					<div class="pruduct-price">
 						<p class = "price-name">Camping backpack <br>"Gloria"</p>
 						<p class = "price"><b>405</b>.99$</p>
@@ -100,14 +119,18 @@ miss your chance to find your style with us!</div>
 				</div>
 			</div>
 			<div class="product-wrapper">
-				<div class="product-box box3">
-					<img src="image/fanny-rulls.jpg" width="200px" height="200px" alt="image">
+				<div class="product-box box3"> <!-- box 2_3-->
+					<a href="#" class="big-link" data-reveal-id="myModal2-3"><!--ссылка на модальное окно-->
+						<img src="image/fanny-rulls.jpg" width="200px" height="200px" alt="image">
+					</a>
 					<div class="pruduct-price">
 						<p class = "price-name">Sports Heats <br>"fanny-rulls"</p>
 						<p class = "price"><b>184</b>.99$</p>
 					</div>				</div>
-				<div class="product-box box4">
-					<img src="image/champ.jpg" width="200px" height="200px" alt="image">
+				<div class="product-box box4"> <!-- box 2_4-->
+					<a href="#" class="big-link" data-reveal-id="myModal2-4"><!--ссылка на модальное окно-->
+						<img src="image/champ.jpg" width="200px" height="200px" alt="image">
+					</a>
 					<div class="pruduct-price">
 						<p class = "price-name">Wrist Watch <br>"Champ"</p>
 						<p class = "price"><b>249</b>.99$</p>
@@ -177,5 +200,71 @@ miss your chance to find your style with us!</div>
 		<div class = "copyright"><p class = "copyright-text">2017 © HandKraftz Designed in USA, California</p>
 		</div>
 	</footer>
+	<div class = "modalbox">
+		<div id = "myModal1-1" class="reveal-modal large modalflex">
+				<img src="image/sneakers.jpg" width="200px" height="200px" alt="image">			
+				<div class = "description">
+				<div><b>Name:</b>Lorem ipsum dolor</div>
+				<div><b>Form:</b>Lorem ipsum dolor</div>
+				<div><b>Desription:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure voluptas perferendis quos in, beatae odit suscipit unde quidem quod, tempora dolore! Hic consequuntur provident dolore saepe libero nemo ad reiciendis!</div>
+			</div>
+		</div>		
+		<div id = "myModal1-2"  class="reveal-modal large modalflex">
+				<img src="image/shirt.jpeg" width="200px" height="200px" alt="image">	
+				<div class = "description">
+				<div><b>Name:</b>Lorem ipsum dolor</div>
+				<div><b>Form:</b>Lorem ipsum dolor</div>
+				<div><b>Desription:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure voluptas perferendis quos in, beatae odit suscipit unde quidem quod, tempora dolore! Hic consequuntur provident dolore saepe libero nemo ad reiciendis!</div>
+			</div>
+		</div>
+		<div id = "myModal1-3"  class="reveal-modal large modalflex">
+				<img src="image/heats.jpg" width="200px" height="200px" alt="image">
+			<div class = "description">
+				<div><b>Name:</b>Lorem ipsum dolor</div>
+				<div><b>Form:</b>Lorem ipsum dolor</div>
+				<div><b>Desription:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure voluptas perferendis quos in, beatae odit suscipit unde quidem quod, tempora dolore! Hic consequuntur provident dolore saepe libero nemo ad reiciendis!</div>
+			</div>
+		</div>
+		<div id = "myModal1-4"  class="reveal-modal large modalflex">
+				<img src="image/necties.jpg" width="200px" height="200px" alt="image">
+			<div class = "description">
+				<div><b>Name:</b>Lorem ipsum dolor</div>
+				<div><b>Form:</b>Lorem ipsum dolor</div>
+				<div><b>Desription:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure voluptas perferendis quos in, beatae odit suscipit unde quidem quod, tempora dolore! Hic consequuntur provident dolore saepe libero nemo ad reiciendis!</div>
+			</div>
+		</div>
+		<div id = "myModal2-1"  class="reveal-modal large modalflex">
+				<img src="image/p_1.jpg" width="200px" height="200px" alt="image">
+			<div class = "description">
+				<div><b>Name:</b>Lorem ipsum dolor</div>
+				<div><b>Form:</b>Lorem ipsum dolor</div>
+				<div><b>Desription:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure voluptas perferendis quos in, beatae odit suscipit unde quidem quod, tempora dolore! Hic consequuntur provident dolore saepe libero nemo ad reiciendis!</div>
+			</div>
+		</div>
+		<div id = "myModal2-2"  class="reveal-modal large modalflex">
+				<img src="image/backpack.jpg" width="200px" height="200px" alt="image">
+			<div class = "description">
+				<div><b>Name:</b>Lorem ipsum dolor</div>
+				<div><b>Form:</b>Lorem ipsum dolor</div>
+				<div><b>Desription:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure voluptas perferendis quos in, beatae odit suscipit unde quidem quod, tempora dolore! Hic consequuntur provident dolore saepe libero nemo ad reiciendis!</div>
+			</div>
+		</div>
+		<div id = "myModal2-3"  class="reveal-modal large modalflex">
+				<img src="image/fanny-rulls.jpg" width="200px" height="200px" alt="image">
+			<div class = "description">
+				<div><b>Name:</b>Lorem ipsum dolor</div>
+				<div><b>Form:</b>Lorem ipsum dolor</div>
+				<div><b>Desription:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure voluptas perferendis quos in, beatae odit suscipit unde quidem quod, tempora dolore! Hic consequuntur provident dolore saepe libero nemo ad reiciendis!</div>
+			</div>
+		</div>
+		<div id = "myModal2-4"  class="reveal-modal large modalflex">
+				<img src="image/champ.jpg" width="200px" height="200px" alt="image">
+			<div class = "description">
+				<div><b>Name:</b>Lorem ipsum dolor</div>
+				<div><b>Form:</b>Lorem ipsum dolor</div>
+				<div><b>Desription:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure voluptas perferendis quos in, beatae odit suscipit unde quidem quod, tempora dolore! Hic consequuntur provident dolore saepe libero nemo ad reiciendis!</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
