@@ -77,7 +77,7 @@ header form {
 	font-size: 16.38px;
 	font-weight: 700;
 	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
+	-webkit-appearance: none;
 }
 /*---*/
 /*	Aside 	*/
