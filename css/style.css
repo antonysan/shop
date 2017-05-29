@@ -76,6 +76,9 @@ header form {
 	color:  #f2f2f2;
 	font-size: 16.38px;
 	font-weight: 700;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
 }
 
 /*	Aside 	*/
